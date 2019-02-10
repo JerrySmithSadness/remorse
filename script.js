@@ -45,5 +45,5 @@
     window.removeEventListener('mousemove', move);
   };
   
-  fetch('/blocks/hello.txt').then(x=>x.text()).then(console.log).catch(console.log);
+  fetch('./blocks/hello.txt').then(x=>x.text()).then(console.log).catch(console.log);
 }());
